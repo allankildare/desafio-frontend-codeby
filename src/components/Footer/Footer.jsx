@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <footer >
-                <p>Feito com <i class="fas fa-heart"></i> por <a href="https://allankildare.github.io">Allan Kildare</a></p>
+                <p>Feito com <i class="fas fa-heart"></i> por <a href="https://allankildare.github.io" target="_blank">Allan Kildare</a></p>
             </footer>
         )
     }
