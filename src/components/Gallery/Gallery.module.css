@@ -1,0 +1,56 @@
+.gallery {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-areas: "nature daily daily" "together together together" "analysis analysis pictures";
+}
+
+.gallery div {
+    height: 220px;
+    padding: 24px;
+    color: var(--white);
+    background-position: center;
+    background-size: cover;
+}
+
+.gallery div h3 {
+    text-transform: lowercase;
+    font-size: 1.4rem;
+    text-shadow: 3px 3px 6px rgba(5, 5, 5, .5);
+}
+
+.gallery div p {
+    font-size: .9rem;
+}
+
+.nature {
+    background-image: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)),
+        url(./../../assets/pexels-sohail-na-807598.jpg);
+    grid-area: nature;
+}
+
+.daily {
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+        url(./../../assets/pexels-agung-pandit-wiguna-3401403.jpg);
+    grid-area: daily;
+}
+
+.together {
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+        url(./../../assets/cue-on-the-pool-table-picjumbo-com.jpg);
+    grid-area: together;
+}
+
+.analysis {
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+        url(./../../assets/pexels-thuany-marcante-1805053.jpg);
+        background-position: top 15px;
+        grid-area: analysis;
+}
+
+.pictures {
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+        url(./../../assets/young-woman-enjoying-ocean-view-picjumbo-com.jpg);
+    grid-area: pictures;
+}

@@ -1,0 +1,29 @@
+.growth {
+    background-color: var(--light-gray);
+    padding: 60px 80px 50px;
+    height: auto;
+    position: relative;
+}
+.sectionTitle {
+    position: absolute;
+    top: 60px;
+}
+.growth h1, .growth h2 {
+    color: var(--gray);
+    text-transform: lowercase;
+}
+
+.growth h1 {
+    font-size: 1.6rem;
+}
+
+.growth h2 {
+    font-size: .9rem;
+    padding-bottom: 30px;
+}
+
+.graphs > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

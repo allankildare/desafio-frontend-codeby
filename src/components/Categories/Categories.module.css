@@ -1,0 +1,17 @@
+.categories {
+    padding: 40px 80px;
+}
+
+.categories h1, .categories h2 {
+    color: var(--gray);
+    text-transform: lowercase;
+}
+
+.categories h1 {
+    font-size: 1.6rem;
+}
+
+.categories h2 {
+    font-size: .9rem;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+    padding: 10px 0 10px;
+    background-color: var(--footer-color);
+    grid-area: footer;
+}
+
+footer i {
+    color: #d31414;
+}
+
+footer a, footer a:visited {
+    color: rgb(6, 6, 6);
+}

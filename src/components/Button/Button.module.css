@@ -1,0 +1,13 @@
+.btn {
+    border: none;
+    padding: 10px 40px;
+    font-size: .9rem;
+    cursor: pointer;
+    outline: none;
+    transition: .6s filter;
+    /* font-weight: 700; */
+}
+
+.btn:hover {
+    filter: brightness(90%);
+}

@@ -1,0 +1,20 @@
+.growthGraph {
+    color: var(--white);
+    width: 166px;
+}
+.priceHour {
+    background-color: var(--dark-blue);
+    padding: 10px 0 0 10px;
+}
+
+.priceHour h4 {
+    font-size: 1.6rem;
+}
+.priceHour p {
+    font-size: 1rem;
+}
+.text {
+    background-color: var(--light-blue);
+    padding: 0 10px 10px 10px;
+    font-size: .7rem;
+}
