@@ -19,6 +19,6 @@ Você pode clicar no botão verde acima escrito "Code" e fazer o download do arq
 `git clone https://github.com/allankildare/desafio-frontend-codeby.git`
 
 ## E para executar? 
-Só será necessário instalar as dependências a partir do uso do comando `npm install` ou simplesmente `npm i`. Logo após isso só será necessário executar o script *start* e para isso é só usar o comando `npm start no seu terminal`
+Só será necessário instalar as dependências a partir do uso do comando `npm install` ou simplesmente `npm i`. Logo após isso só será necessário executar o script *start* e para isso é só usar o comando `npm start` no seu terminal.
 
 <h4 align="center">Orgulhosamente feito por Allan Kildare</h4>
